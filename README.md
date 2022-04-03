@@ -2,4 +2,4 @@
 
 ## Сайт про изменение цен в марте 2022 года в России
 
-[Открыть сайт](https://pages.github.com/).
+[Открыть сайт](https://scriptbas.github.io/HtmlCss2/).
