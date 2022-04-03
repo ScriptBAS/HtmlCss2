@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Montserrat&family=Open+Sans:wght@500&family=Raleway&display=swap');
+body{
+background: dimgray;
+font-family: 'Inter', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+}
+
+.container{
+    width: 850px;
+    margin: auto;
+}
+
+h2{
+    margin: 0 auto 10px auto;
+    font-size: 22px;
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline dotted red;
+}
+header{
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkred;
+    text-align: center;
+}
+
+.block{
+    background: #eee;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.logo{
+    display: inline-block;
+    width: 30%;
+    border: 4px;
+    padding: 5px;
+}
+.termin{
+    display: inline-block;
+    width: 66%;
+    vertical-align: top;
+    font-size: 24px;
+    font-style: italic;
+    color: darkslategrey;
+    padding: 0 10px;
+    box-sizing: border-box;
+    text-align: justify;
+    }
+
+.companies li{
+    display: inline-block;
+    width: 48%;
+    font-size: 14px;
+    vertical-align: top;
+    margin-bottom: 10px;
+}
+
+.companies li:last-child{
+    width: 50%;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+.companies li:hover{
+font-weight: bold;
+color: darkorchid;
+}
+
+.table{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    font-size: 14px;
+    border-spacing: 0;
+}
+
+.table thead{
+background-color: lightslategray;
+font-size: 16px;
+}
+
+.table tbody tr:nth-child(odd){
+background-color: #e0e0e0;
+}
+
+.table tbody tr:nth-child(even){
+    background-color: grey;
+    }
+
+.table tbody tr:hover{
+    background: lightsalmon;
+    color: black;
+    font-weight: bold;
+}
+
+.news li{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.news li a{
+    text-decoration: none;
+    color: darkslategrey;
+}
+
+.news li a:visited{
+    color: darkgray;
+}
+
+.news li a:hover{
+    color: darkred;
+    font-weight: bold;
+
+}
+
+.comment{
+    display: inline-block;
+    width: 48%;
+    margin: auto;
+    text-align: center;
+}
+
+.comment input{
+    outline: none;
+    background: inherit;
+    display: block;
+    margin: 0 auto 10px auto;
+    width: 75%;
+}
+
+.message label{
+    margin-left: 50px;
+}
+
+.message textarea{
+width: 90%;
+height: 100px;
+padding: 5px;
+box-sizing: border-box;
+background: inherit;
+margin: 0 auto 20px auto;
+display: block;
+}
+
+.btn{
+    background: darkturquoise;
+    padding: 15px;
+    margin: auto;
+    border-radius: 5px;
+    color: lightgray;
+    font-weight: bold;
+    display: block;
+}
+
+.btn:hover{
+    background: darksalmon;
+    border: 2px solid red;
+}
+
+@media (max-width: 650px){
+    .companies li{
+        display: inline-block;
+        width: 100%;
+        font-size: 14px;
+        vertical-align: top;
+        margin-bottom: 10px;
+    }
+
+    .companies li:last-child{
+    width: 100%;
+    text-align: left;
+    }
+
+    .comment{
+        width: 100%;
+        margin: auto;
+    }
+}
